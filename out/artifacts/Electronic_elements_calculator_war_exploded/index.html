@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Electronic elements calculator</title>
+    <link href="index-style.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+
+<h2>Welcome to my calculator of electronic components.</h2>
+<h3>This project has been written using servletts.</h3> <br>
+
+<h4>Please choose electronic component to calculate its values</h4>
+
+<form action="ComponentsChooseServlet" method="get">
+
+    <select name="chooseComponent">
+        <option value="resistor">Resistor</option>
+        <option value="capacitor">Capacitor</option>
+    </select>
+    <input type="submit" value="Send">
+
+
+</form>
+
+
+</body>
+</html>
